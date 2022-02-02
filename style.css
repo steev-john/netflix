@@ -13,7 +13,7 @@ body {
   width: 100%;
   height: 50vh;
   z-index: -1;
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 nav {
@@ -87,7 +87,7 @@ nav option {
   height: 2em;
   font-size: 1.1rem;
   border-radius: 10px;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   border: none;
 }
 
@@ -104,7 +104,7 @@ nav option {
 }
 
 .section {
-  margin-top: 9em;
+  margin-top: 5em;
   color: whitesmoke;
   display: -webkit-box;
   display: -ms-flexbox;
