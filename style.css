@@ -63,7 +63,7 @@ nav option {
 }
 
 .hero-txt h3 {
-  font-weight: 700;
+  font-weight: 500;
   line-height: 20px;
 }
 
@@ -134,5 +134,99 @@ nav option {
 
 .section .section-3 img {
   margin-top: 1em;
+}
+
+footer {
+  color: whitesmoke;
+  text-align: center;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 700px) {
+  .hero-input .input {
+    width: 40em;
+  }
+  .section {
+    margin-top: 7em;
+  }
+  .section h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  .section h3 {
+    font-size: 2em;
+    font-weight: 100;
+  }
+  .section img {
+    margin-top: -1em;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  nav img {
+    width: 150px;
+  }
+  nav a {
+    font-size: 1.3rem;
+  }
+  nav .opt {
+    font-size: 1.3rem;
+  }
+  .hero-txt h1 {
+    font-size: 4rem;
+  }
+  .hero-txt h3 {
+    font-size: 1.5rem;
+  }
+  .hero-input input {
+    width: 30em;
+  }
+  .hero-input a {
+    width: 8em;
+    font-size: 1.2rem;
+  }
+  .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section .section-1, .section .section-2, .section .section-3, .section .section-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: -1em;
+  }
+  .section .section-1 img, .section .section-2 img, .section .section-3 img, .section .section-4 img {
+    width: 100%;
+  }
+  .section .section-1 .text, .section .section-2 .text, .section .section-3 .text, .section .section-4 .text {
+    text-align: right;
+  }
+  .section .section-2, .section .section-4 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .section .section-2 .text, .section .section-4 .text {
+    text-align: left;
+  }
+  .section h3 {
+    width: 35em;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .section .section-2 .text, .section .section-4 .text {
+    margin-left: -22em;
+  }
+  .section .section-1 .text, .section .section-3 .text {
+    margin-right: -30em;
+  }
 }
 /*# sourceMappingURL=style.css.map */

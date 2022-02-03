@@ -56,7 +56,7 @@ nav {
     font-weight: 700;
   }
   h3 {
-    font-weight: 700;
+    font-weight: 500;
     line-height: 20px;
   }
 }
@@ -117,4 +117,114 @@ nav {
       margin-top: 1em;
     }
   }
+}
+
+footer {
+  color: whitesmoke;
+  text-align: center;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 700px) {
+  .hero-input {
+    .input {
+      width: 40em;
+    }
+  }
+
+  .section {
+    margin-top: 7em;
+
+    h2 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    h3 {
+      font-size: 2em;
+      font-weight: 100;
+    }
+
+    img {
+      margin-top: -1em;
+    }
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  nav {
+    img {
+      width: 150px;
+    }
+    a {
+      font-size: 1.3rem;
+    }
+    .opt {
+      font-size: 1.3rem;
+    }
+  }
+
+  .hero-txt {
+    h1 {
+      font-size: 4rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .hero-input {
+    input {
+      width: 30em;
+    }
+    a {
+      width: 8em;
+      font-size: 1.2rem;
+    }
+  }
+
+  .section {
+    display: flex;
+
+    .section-1,.section-2,.section-3,.section-4{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: -1em;
+      img{
+        width: 100%;
+      }
+      .text{
+        text-align: right;
+      }
+    }
+
+    .section-2,.section-4{
+      flex-direction: row-reverse;
+      .text{
+        text-align: left;
+      }
+    }
+    
+      h3{
+        width: 35em;
+      }
+    
+  }
+}
+
+@media screen and (min-width: 1800px) {
+.section{
+  .section-2,.section-4{
+    .text{
+      margin-left: -22em;
+    }
+    }
+
+    .section-1,.section-3{
+      .text{
+        margin-right: -30em;
+      }
+      }
+}
 }
